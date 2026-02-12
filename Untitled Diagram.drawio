@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram name="Page-1" id="19qlhmzdD7vSHz0dQ_cW">
+    <mxGraphModel dx="2246" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Staff Enters Office" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Device Connects &lt;br&gt;to Office Wi-Fi?" vertex="1">
+          <mxGeometry height="110" width="140" x="330" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-3" edge="1" parent="1" source="qoL60Q6dt-1yXpC5TIRU-1" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qoL60Q6dt-1yXpC5TIRU-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Identify MAC Address &lt;br&gt;in DB" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-5" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="40" x="390" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Mark Present&lt;br&gt;Log Arrival Time" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-7" edge="1" parent="1" source="qoL60Q6dt-1yXpC5TIRU-4" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qoL60Q6dt-1yXpC5TIRU-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Heartbeat Check &lt;br&gt;(Every 30 Mins)" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-9" edge="1" parent="1" source="qoL60Q6dt-1yXpC5TIRU-4" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qoL60Q6dt-1yXpC5TIRU-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Still Connected?" vertex="1">
+          <mxGeometry height="90" width="120" x="340" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-11" edge="1" parent="1" source="qoL60Q6dt-1yXpC5TIRU-8" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qoL60Q6dt-1yXpC5TIRU-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Current Time &amp;gt;=&lt;br&gt;Leaving Time?" vertex="1">
+          <mxGeometry height="110" width="140" x="330" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-13" edge="1" parent="1" source="qoL60Q6dt-1yXpC5TIRU-10" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qoL60Q6dt-1yXpC5TIRU-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-14" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="No" vertex="1">
+          <mxGeometry height="30" width="40" x="390" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Full Day Present&lt;br&gt;(Logged)" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Log &#39;Left Early&#39;&lt;br&gt;Current Time" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-17" edge="1" parent="1" source="qoL60Q6dt-1yXpC5TIRU-12" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qoL60Q6dt-1yXpC5TIRU-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-18" edge="1" parent="1" source="qoL60Q6dt-1yXpC5TIRU-12" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="qoL60Q6dt-1yXpC5TIRU-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-19" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="40" x="470" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-20" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="No" vertex="1">
+          <mxGeometry height="30" width="40" x="280" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-21" edge="1" parent="1" source="qoL60Q6dt-1yXpC5TIRU-10" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="qoL60Q6dt-1yXpC5TIRU-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="575" />
+              <mxPoint x="500" y="450" />
+            </Array>
+            <mxPoint intermediatePoints="[600,510]" x="550" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoL60Q6dt-1yXpC5TIRU-22" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Yes (Wait)" vertex="1">
+          <mxGeometry height="30" width="80" x="490" y="500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
